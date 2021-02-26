@@ -7,6 +7,7 @@ function myFunction() {
     var doc = document.getElementsByTagName("p");
         for (var i = 0; i < doc.length; i++) {
             var val = doc[i].style.backgroundColor = "yellow";
+            var val = doc[i].style.fontWeight = "bold";
         }   
   }
   
