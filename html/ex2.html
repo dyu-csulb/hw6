@@ -87,18 +87,41 @@
             </tr>
         </table> 
         <hr />
-        <div class="row">
-            <div class="col-3 my-text-right">
-                <b>Answer:</b> 
+        <div class="container">
+            <div id='div-body' style="text-align: left;"> 
+                <h1>CSULB IS Courses</h1>
+                <p>Fall Classes Taken:</p>
+                <ul class="iscourses" id="fall">
+                    <li class="300level">IS 300</li>
+                    <li class="300level">IS 310</li>
+                    <li class="300level">IS 340</li>
+                    <li class="300level">IS 385</li>
+                </ul>
+                <p>Spring Classes Taken:</p>
+                <ul class="iscourses" id="spring">
+                    <li class="300level">IS 320</li>
+                    <li class="300level">IS 380</li>
+                    <li class="400level">IS 445</li>
+                    <li class="400level">IS 480</li>
+                </ul>
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="http://www.csulb.edu">CSULB Home Page</a></li>
+                    <li><a href="https://www.csulb.edu/college-of-business/information-systems">Information Systems</a></li>
+                </ul>
+            
             </div>
-            <div class="col-9 my-text-left" >   
-                <label id="lblMessage" readonly name="lblMessage"></label>
+            <hr />
+            <div class="row" style="text-align: left;">
+                <b>Answer:</b> <span style="color: red;">Results are also in console. </span>
+             
+                <label id='lblMessage'  ></label>
             </div>
+            <hr />
+            <button type='button' class="btn btn-sm btn-primary" onclick="myFunction()">Run Program</button>
+            <button type='button' class="btn btn-sm btn-primary" onclick="clearValues()">Clear</button>
+            <button type='button' class="btn btn-sm btn-danger btnOverLayClose"  >Close</button>
         </div>
-        <hr />
-        <button type='button' class="btn btn-sm btn-primary" onclick="myFunction()">Run Program</button>
-        <button type='button' class="btn btn-sm btn-primary" onclick="clearValues()">Clear</button>
-        <button type='button' class="btn btn-sm btn-danger btnOverLayClose"  >Close</button>
 
     </div>
 
