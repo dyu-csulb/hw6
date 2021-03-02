@@ -2,6 +2,7 @@
 function myFunction() {
     clearValues();
     displayText400();
+    document.getElementById("lblInstruction").innerHTML  = 'Results are also in console';
   }
   
   const displayText400 = () => {
@@ -16,6 +17,7 @@ function myFunction() {
   
   function clearValues() {
     document.getElementById("lblMessage").innerHTML  = '';
+    document.getElementById("lblInstruction").innerHTML  = "Click 'run' program to view results";
   }
   
   
